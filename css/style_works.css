@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*A cada 1 rem será considerado 10px */
+html{
+    font-size: 62.5%;
+}
+
+body, html{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*Configuração Header*/
+header img {
+    max-width: 250px;
+    width: 100%;
+  
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.container .menu{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #020202;
+    opacity: 60%;
+    padding: 7px;
+    font-size: 18px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+
+/*Configuração Trabalhos realizados*/
+.container{
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+
+}
+
+.container img{
+     min-width: 17.2rem;      
+     max-height: 14.1rem;
+     margin: 2.5rem;
+     border-radius: 18px;
+     margin-top: 10px;
+     
+        
+}
+
+.container div p{
+    font-family: "Josefin Sans Std", sans-serif;
+    width: 100px;
+    background-color: #020202;
+    font-size: 1.2rem;
+    color:#e3fdfd;
+    font-weight: 500;
+    opacity: 50%;
+    margin-top: -41px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 6rem;
+    
+}
+
+hr{
+    margin-top: 10px;
+    color:  #504949;
+    width: 100%;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 8px;
+    font-family:'Josefin Sans', sans-serif;
+ }
